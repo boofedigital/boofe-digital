@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -10,7 +11,7 @@ const services = [
   { icon: <BookOpen />, title: "Knowledge Curation" },
 ];
 
-export default function App() {
+export default function BoofeDigitalHome() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-white via-blue-50 to-white text-gray-800 px-4 sm:px-8 md:px-16 py-12">
       <header className="text-center mb-20">
@@ -38,7 +39,7 @@ export default function App() {
         <p className="text-gray-700 max-w-xl mx-auto mb-8">
           Whether you're an early-stage founder, a growing digital enterprise, or an innovator in the AI space, Boofe Digital Ventures is your strategic partner.
         </p>
-        <Button className="rounded-2xl text-lg px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white">
+        <Button size="lg" className="rounded-2xl text-lg px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white">
           Contact Us
         </Button>
       </section>
